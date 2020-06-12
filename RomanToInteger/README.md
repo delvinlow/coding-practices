@@ -63,6 +63,10 @@ For more cases, refer to `tests` directory.
 2. Download project dependencies using `pipenv install --dev`
 3. Run tests using `pipenv run python -m pytest`
 
+## Test Coverage
+1. Run `coverage run --source=. -m pytest`
+2. Run `coverage html` to generate HTML report for coverage
+
 ---
 
 ## Learning Points
